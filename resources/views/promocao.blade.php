@@ -6,9 +6,9 @@
     <title>Pizza Place - Promoção</title>
     <style>
         body {
-            background: rgb(255, 255, 255);
+            background: linear-gradient(180deg, #fff7f9 0%, #ffebf3 100%);
             font-family: Arial, sans-serif;
-            color: rgb(237, 11, 11);
+            color: #7b1c3f;
             text-align: center;
             padding: 50px;
         }
@@ -18,37 +18,40 @@
         .nav a {
             margin: 0 15px;
             text-decoration: none;
-            color: rgb(237, 11, 11);
+            color: #7b1c3f;
             font-weight: bold;
         }
         .nav a:hover {
-            color: #ff6b9d;
+            color: #db2777;
         }
         h1 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
+            font-size: 2.8em;
+            margin-bottom: 18px;
         }
         h3 {
-            font-size: 1.5em;
-            margin-bottom: 30px;
+            font-size: 1.4em;
+            margin-bottom: 28px;
         }
         .promo {
-            margin-bottom: 30px;
-            border: 2px solid #d6336c;
-            padding: 20px;
-            border-radius: 10px;
-            background: #ffe6e6;
+            margin-bottom: 24px;
+            border: 2px solid #ec4899;
+            padding: 24px;
+            border-radius: 16px;
+            background: #fff1f2;
+            box-shadow: 0 10px 30px rgba(219, 39, 119, 0.12);
         }
         .promo h4 {
-            font-size: 1.3em;
+            font-size: 1.4em;
             margin-bottom: 10px;
+            color: #be185d;
         }
         .promo p {
-            margin-bottom: 10px;
+            margin-bottom: 12px;
+            color: #6d214f;
         }
         .discount {
             font-weight: bold;
-            color: #d6336c;
+            color: #b91c55;
             font-size: 1.2em;
         }
     </style>
@@ -60,31 +63,31 @@
         <a href="/cardapio">Cardápio</a>
         <a href="/promocao">Promoção</a>
     </div>
-    <h1>Promoções da Pizza Place</h1>
-    <h3>Ofertas imperdíveis!</h3>
+    <h1>Novas Promoções da Pizza Place</h1>
+    <h3>Ofertas especiais para você aproveitar hoje</h3>
     
     <div class="promo">
-        <h4>Segunda-feira: Pizza Família</h4>
-        <p> 2 Pizza grande + 1 refrigerantes por apenas R$ 50,00</p>
-        <div class="discount">Economize R$ 15,00!</div>
+        <h4>Combo Família Premium</h4>
+        <p>3 pizzas grandes + 2 refrigerantes por apenas R$ 120,00.</p>
+        <div class="discount">Leve 1 pizza extra por R$ 10!</div>
     </div>
     
     <div class="promo">
-        <h4>Terça-feira: Desconto para Estudantes</h4>
-        <p>Apresente carteirinha e ganhe 20% de desconto em qualquer pizza.</p>
-        <div class="discount">Até R$ 10,00 de desconto!</div>
+        <h4>Sábado Doce</h4>
+        <p>Peça qualquer pizza e ganhe 2 mini sobremesas grátis.</p>
+        <div class="discount">Só no sábado!</div>
     </div>
     
     <div class="promo">
-        <h4>Quarta-feira: Combo Duplo</h4>
-        <p>Duas pizzas médias por R$ 60,00</p>
-        <div class="discount">Melhor preço!</div>
+        <h4>Quarta do Quatro Queijos</h4>
+        <p>Pizza Quatro Queijos média por apenas R$ 45,00.</p>
+        <div class="discount">Oferta válida o dia todo.</div>
     </div>
     
     <div class="promo">
-        <h4>Sexta-feira: Happy Hour</h4>
-        <p>De 17h às 19h, todas as pizzas com 15% de desconto.</p>
-        <div class="discount">Aproveite!</div>
+        <h4>Delivery Feliz</h4>
+        <p>Frete grátis para pedidos acima de R$ 80,00.</p>
+        <div class="discount">Peça agora e economize!</div>
     </div>
 </body>
 </html>
