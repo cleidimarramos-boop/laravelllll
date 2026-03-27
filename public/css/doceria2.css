@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(180deg, #fff8f5 0%, #ffe7ea 100%);
+    color: #4c1d34;
+}
+
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    margin-bottom: 12px;
+    color: #9d174d;
+}
+
+.intro p {
+    color: #6b2135;
+    font-size: 1.1rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 22px;
+}
+
+.card {
+    background: white;
+    border-radius: 24px;
+    padding: 28px;
+    box-shadow: 0 16px 35px rgba(153, 39, 76, 0.12);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #981b4a;
+}
+
+.card p {
+    color: #6b2143;
+    line-height: 1.75;
+}
+
+.card .price {
+    display: inline-block;
+    margin-top: 16px;
+    font-weight: 700;
+    color: #be123c;
+}
+
+.footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.footer a {
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 999px;
+    background: #be185d;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.footer a:hover {
+    background: #9f1239;
+}

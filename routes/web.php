@@ -121,3 +121,7 @@ Route::get('/tela', function () {
 Route::get('/doceria', function () {
     return view('doceria');
 });
+
+Route::get('/doceria2', function () {
+    return view('doceria2');
+});
